@@ -1,5 +1,6 @@
 require 'fileutils'
 require 'rubygems'
+require 'activesupport'
 require 'validatable'
 require 'english/inflect'
 require 'yaml'
