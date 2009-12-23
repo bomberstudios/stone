@@ -1,8 +1,9 @@
+ENV['GEM_PATH'] = ENV['HOME'] + '/.gems'
+
 require 'fileutils'
 require 'rubygems'
-require 'activesupport'
+require 'active_support'
 require 'validatable'
-require 'english/inflect'
 require 'yaml'
 
 require File.expand_path(File.dirname(__FILE__) + '/stone/core_ext/enumerable')
